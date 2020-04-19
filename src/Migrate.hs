@@ -4,12 +4,12 @@
 module Migrate where
 
 import Squeal.PostgreSQL
-import qualified Schema.Prior
-import qualified Schema.Latest
 import Control.Category
 import System.IO
 
-migrations :: Path (Migration (IsoQ Definition)) Schema.Prior.Schemas Schema.Latest.Schemas
+import qualified Schema.V0 as V0
+
+migrations :: Path (Migration (IsoQ Definition)) V0.Schemas V0.Schemas
 migrations = id
 
 main :: IO ()

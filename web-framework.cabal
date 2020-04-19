@@ -14,8 +14,7 @@ library
     , Migrate
   other-modules:
       API
-    , Schema.Latest
-    , Schema.Prior
+    , Schema.V0
     , Server
   hs-source-dirs: src
   other-extensions:
