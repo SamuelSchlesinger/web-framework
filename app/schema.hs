@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 module Main where
 
-import qualified Migrate
+import qualified Schema
 
-main = Migrate.main
+main = Schema.main
