@@ -16,7 +16,7 @@ library
       API
     , Schema.V0
     , Schema.V1
-    , Schema.Latest
+    , Schema.V2
     , Server
   hs-source-dirs: src
   other-extensions:

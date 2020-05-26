@@ -17,7 +17,7 @@ module Server where
 import Data.Int (Int64)
 import API
 import Servant
-import Schema.Latest 
+import Schema.V2 
 import Data.ByteString (ByteString)
 import qualified Data.ByteString as BS
 import Data.Text (Text)

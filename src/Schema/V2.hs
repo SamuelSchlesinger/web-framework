@@ -4,7 +4,7 @@
 {-# LANGUAGE TypeFamilies #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE DataKinds #-}
-module Schema.Latest where
+module Schema.V2 where
 
 import Squeal.PostgreSQL
 import qualified Schema.V1 as V1
